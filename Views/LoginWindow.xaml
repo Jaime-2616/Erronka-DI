@@ -1,0 +1,88 @@
+<Window x:Class="TPV_Gastronomico.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TPV Gastronómico - Login"
+        Height="400"
+        Width="380"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="White">
+
+	<Grid Margin="20">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+		</Grid.RowDefinitions>
+
+		<!-- Título -->
+		<TextBlock Grid.Row="0"
+                   Text="Hasi saio"
+                   FontSize="18"
+                   FontWeight="SemiBold"
+                   Foreground="#2c3e50"
+                   HorizontalAlignment="Center"
+                   Margin="0,0,0,20"/>
+
+		<!-- Formulario -->
+		<StackPanel Grid.Row="1" Margin="0,10">
+			<TextBlock Text="Erabiltzailea"
+                      FontWeight="SemiBold"
+                      Foreground="#555"
+                      Margin="0,0,0,5"/>
+			<TextBox x:Name="UsernameBox"
+                    Height="40"
+                    Padding="8"
+                    BorderBrush="#ccc"
+                    BorderThickness="1"
+                    FontSize="14"/>
+
+			<TextBlock Text="Pasahitza"
+                      FontWeight="SemiBold"
+                      Foreground="#555"
+                      Margin="0,12,0,5"/>
+			<PasswordBox x:Name="PasswordBox"
+                        Height="40"
+                        Padding="8"
+                        BorderBrush="#ccc"
+                        BorderThickness="1"
+                        FontSize="14"/>
+		</StackPanel>
+
+		<!-- Mensaje de estado -->
+		<TextBlock x:Name="StatusText"
+                  Grid.Row="2"
+                  Foreground="Red"
+                  FontSize="12"
+                  TextWrapping="Wrap"
+                  Margin="0,10,0,5"
+                  HorizontalAlignment="Center"/>
+
+		<!-- Botones -->
+		<StackPanel Grid.Row="3"
+                   Orientation="Horizontal"
+                   HorizontalAlignment="Center"
+                   Margin="0,15">
+			<Button Content="Sartu"
+                    Width="100"
+                    Height="32"
+                    Margin="8"
+                    Background="#007ACC"
+                    Foreground="White"
+                    BorderThickness="0"
+                    FontWeight="SemiBold"
+                    Click="Login_Click"/>
+
+			<Button Content="Itxi"
+                    Width="100"
+                    Height="32"
+                    Margin="8"
+                    Background="#6c757d"
+                    Foreground="White"
+                    BorderThickness="0"
+                    FontWeight="SemiBold"
+                    Click="Salir_Click"/>
+		</StackPanel>
+	</Grid>
+</Window>
