@@ -12,7 +12,10 @@
                 <Button x:Name="BtnStock" Content="Stock" Width="100" Margin="5" Click="BtnStock_Click"/>
                 <Button x:Name="BtnReservas" Content="Erreserbak" Width="100" Margin="5" Click="BtnReservas_Click"/>
                 <Button x:Name="BtnTickets" Content="Txartelak" Width="100" Margin="5" Click="BtnTickets_Click"/>
+                <Button x:Name="BtnCerrarSesion" Content="Itxi saioa" Width="100" Margin="5" Click="BtnCerrarSesion_Click"/>
+
             </StackPanel>
-        </StackPanel>
+        </StackPanel> 
+        
     </Grid>
 </Window>

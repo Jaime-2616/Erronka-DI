@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\views\\ticketwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:views\\ticketwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\views\\ticketwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:views\\ticketwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\views\\usuarioswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:views\\usuarioswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\views\\usuarioswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:views\\usuarioswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\views\\stockwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:views\\stockwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\views\\stockwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:views\\stockwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|d:\\jaime\\erronka\\tpv_gastronomico-20251121t122733z-1-001\\tpv_gastronomico\\views\\reservaswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56295DAD-39EE-AD1E-71F8-D66E9E335E8A}|TPV_Gastronomico.csproj|solutionrelative:views\\reservaswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\TicketWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TicketWindow.xaml.cs",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\TicketWindow.xaml.cs",
+              "RelativeToolTip": "Views\\TicketWindow.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAEwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-16T08:22:49.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketWindow.xaml",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\TicketWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\TicketWindow.xaml",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\TicketWindow.xaml",
+              "RelativeToolTip": "Views\\TicketWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-16T08:22:35.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuariosWindow.xaml",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\UsuariosWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\UsuariosWindow.xaml",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\UsuariosWindow.xaml",
+              "RelativeToolTip": "Views\\UsuariosWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T12:10:53.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T12:22:55.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginWindow.xaml.cs",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:33:43.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Data\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseContext.cs",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Data\\DatabaseContext.cs",
+              "RelativeToolTip": "Data\\DatabaseContext.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:37:39.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA8wEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T12:23:03.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ReservasWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\ReservasWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\ReservasWindow.xaml.cs",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\ReservasWindow.xaml.cs",
+              "RelativeToolTip": "Views\\ReservasWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:33:51.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StockWindow.xaml",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\StockWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\StockWindow.xaml",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\StockWindow.xaml",
+              "RelativeToolTip": "Views\\StockWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T12:10:22.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StockWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\StockWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\StockWindow.xaml.cs",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\StockWindow.xaml.cs",
+              "RelativeToolTip": "Views\\StockWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:33:50.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuariosWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\UsuariosWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\UsuariosWindow.xaml.cs",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\UsuariosWindow.xaml.cs",
+              "RelativeToolTip": "Views\\UsuariosWindow.xaml.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAqwJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-24T11:33:46.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginWindow.xaml",
+              "ToolTip": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-24T12:49:05.545Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

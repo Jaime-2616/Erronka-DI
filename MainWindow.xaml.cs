@@ -19,10 +19,10 @@ namespace TPV_Gastronomico
             // Ocultar botones de admin si no es admin
             if (_currentUser.Rol == Role.Admin)
             {
-                BtnUsuarios.Visibility = Visibility.Visible;
+                BtnUsuarios.Visibility = Visibility.Visible;    
                 BtnStock.Visibility = Visibility.Visible;
-                BtnReservas.Visibility = Visibility.Visible; // Admin también ve reservas
-                BtnTickets.Visibility = Visibility.Visible;  // Admin también ve tickets
+                BtnReservas.Visibility = Visibility.Collapsed; // Admin también ve reservas
+                BtnTickets.Visibility = Visibility.Collapsed;  // Admin también ve tickets
             }
             else if (_currentUser.Rol == Role.Usuario)
             {
@@ -57,9 +57,22 @@ namespace TPV_Gastronomico
         // Botón Tickets
         private void BtnTickets_Click(object sender, RoutedEventArgs e)
         {
-            //var ventanaTickets = new Views.TicketWindow();
-            //ventanaTickets.ShowDialog();
-
+            var ventanaTickets = new Views.TicketWindow(_currentUser);
+            ventanaTickets.ShowDialog();
         }
+        private void BtnCerrarSesion_Click(object sender, RoutedEventArgs e)
+        {
+            var confirm = MessageBox.Show("¿Deseas cerrar sesión?", "Cerrar sesión", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (confirm == MessageBoxResult.Yes)
+            {
+                // Cierra esta ventana
+                this.Close();
+
+                // Opcional: abrir ventana de login
+                var loginWindow = new LoginWindow();
+                loginWindow.Show();
+            }
+        }
+
     }
 }

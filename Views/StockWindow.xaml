@@ -2,7 +2,7 @@
 <Window x:Class="TPV_Gastronomico.Views.StockWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Stock Kudeaketa" Height="520" Width="800">
+        Title="Stock Kudeaketa" Height="520" Width="950">
 	<Grid Margin="10">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>

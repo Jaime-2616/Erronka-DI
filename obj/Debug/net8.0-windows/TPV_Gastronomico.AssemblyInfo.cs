@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPV_Gastronomico")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80641d647ba23df044344f731f4ff709de3622cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPV_Gastronomico")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPV_Gastronomico")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

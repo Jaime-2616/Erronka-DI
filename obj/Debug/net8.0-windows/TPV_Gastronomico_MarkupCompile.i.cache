@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
 D:\Jaime\Erronka\TPV_Gastronomico-20251121T122733Z-1-001\TPV_Gastronomico\App.xaml
-51423762583
+6-874738576
 
-24-2141796583
+25-1211577638
 219-1623790294
-MainWindow.xaml;Views\LoginWindow.xaml;Views\ReservasWindow.xaml;Views\StockWindow.xaml;Views\UsuariosWindow.xaml;
+MainWindow.xaml;Views\LoginWindow.xaml;Views\ReservasWindow.xaml;Views\StockWindow.xaml;Views\TicketWindow.xaml;Views\UsuariosWindow.xaml;
 
 False
 
