@@ -1,22 +1,16 @@
 Deskribapena
 
-Proiektu honen helburua elkarte gastronomiko bateko TPV (Terminal Punto de Venta) sistema txiki bat garatzea da, mahai gaineko ordenagailu batean instalatzeko. Sistema komertzialak kostu handia duenez, gure sistemak bertsio merkeagoa eta funtzional bat eskaintzen du, administratzaile eta erabiltzaile komunen beharrak betez.
+Proiektu honen helburua elkarte gastronomiko bateko TPV (Terminal Punto de Venta) sistema txiki bat garatzea da, mahai gaineko ordenagailu batean instalatzeko, elkartearen kudeaketa merkeago eta eraginkorra izan dadin. Sistema komertzialak kostu handia duenez, gure sistemak bertsio merkeagoa eta funtzional bat eskaintzen du, administratzaile eta erabiltzaile komunen beharrak betez. Sistema SQLite datu-basearekin integratuta dago, eta datu guztiak bertan gordetzen dira. Datu-basea hasteko ez da ezer egin behar; automatikoki sortzen eta inicializatzen da sistema lehenengo abiaraztean.
 
-Sistema honek datu-base baten bidez funtzionatuko du eta erabiltzaile mota desberdinak kudeatuko ditu: administratzaileak eta erabiltzaile komunak.
-Admin:admin
-Pasahitza:admin123
-Usuaria normala:Unai 
-Pasahitza:unai123
-Funtzionalitateak
-1. Erabiltzaile mota
+Erabiltzaile mota
 
-Administratzailea:
+Administratzailea
 
 Biltegiko stocka gehitu, aldatu eta ezabatu
 
 Erabiltzaileak sortu, aldatu eta ezabatu
 
-Erabiltzaile komuna:
+Erabiltzaile komuna
 
 Sistemara logeatu
 
@@ -26,7 +20,15 @@ Ticketa inprimatu eta ordaindu
 
 Mahaien erreserbak egin, aldatu eta ezabatu
 
-2. Interfazeak
+Erabiltzaileak
+
+Admin: Erabiltzailea: admin, Pasahitza: admin123
+
+Erabiltzaile normala: Erabiltzailea: Unai, Pasahitza: unai123
+
+Funtzionalitateak
+
+Interfazeak
 
 Login interfazea: Erabiltzaileak sistemara sartzeko
 
@@ -40,10 +42,10 @@ Data zehatz batean mahaia erreserbatu
 
 Bazkaria eta afaria bereizita kudeatu
 
-3. Datu-basea
+Datu-basea
 
-Sistema guztiaren informazioa datu-base batean gordeko da.
+Sistema guztiaren informazioa SQLite datu-base batean gordeko da.
 
-Datu-basearen motorra aukeran geratuko da (MySQL, SQLite, PostgreSQL, etab.).
+Administratzaileak eta erabiltzaile komunen datuak bertan gordeko dira.
 
-Administratzaileak eta erabiltzaile komunen datuak datu-basean gordeko dira.
+Datu-basea automatikoki sortzen eta inicializatzen da lehenengo abiaraztean, erabiltzaileak ez du ezer egin behar.
