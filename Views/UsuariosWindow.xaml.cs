@@ -14,6 +14,7 @@ namespace TPV_Gastronomico.Views
 
         public UsuariosWindow()
         {
+            // Euskera: Erabiltzaileen kudeaketa leihoa (gehitu/eguneratu/ezabatu)
             InitializeComponent();
             LoadAll();
             RolCombo.SelectedIndex = 1; // por defecto Usuario
@@ -37,6 +38,7 @@ namespace TPV_Gastronomico.Views
 
         private void Buscar_Click(object sender, RoutedEventArgs e)
         {
+            // Euskera: Erabiltzaileak bilatu izen edo username bidez
             var term = SearchBox.Text?.Trim().ToLower();
             var list = _usuarioService.GetAll()
                         .Where(u => string.IsNullOrWhiteSpace(term) ||
@@ -49,6 +51,7 @@ namespace TPV_Gastronomico.Views
 
         private void UsuariosGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            // Euskera: Hautatutako erabiltzailearen datuak formularioan erakutsi
             _selectedUser = UsuariosGrid.SelectedItem as User;
             if (_selectedUser != null)
             {
@@ -72,6 +75,7 @@ namespace TPV_Gastronomico.Views
 
         private void Anadir_Click(object sender, RoutedEventArgs e)
         {
+            // Euskera: Erabiltzaile berri bat gehitu (pasahitzarekin)
             try
             {
                 var nombre = NombreBox.Text.Trim();
@@ -98,6 +102,7 @@ namespace TPV_Gastronomico.Views
 
         private void Actualizar_Click(object sender, RoutedEventArgs e)
         {
+            // Euskera: Hautatutako erabiltzailea eguneratu (aukeraz pasahitza alda daiteke)
             if (_selectedUser == null)
             {
                 MessageBox.Show("Selecciona un usuario para actualizar.", "Atención", MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -123,6 +128,7 @@ namespace TPV_Gastronomico.Views
 
         private void Eliminar_Click(object sender, RoutedEventArgs e)
         {
+            // Euskera: Hautatutako erabiltzailea ezabatu (kontuz admin kopuruarekin)
             if (_selectedUser == null)
             {
                 MessageBox.Show("Selecciona un usuario para eliminar.", "Atención", MessageBoxButton.OK, MessageBoxImage.Warning);

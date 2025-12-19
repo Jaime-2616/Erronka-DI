@@ -48,13 +48,11 @@ namespace TPV_Gastronomico.Services
         {
             try
             {
-               
-
                 // Verificar si la mesa está disponible para esa fecha y tipo de comida
-                // TEMPORAL: Quitamos la validación del Estado hasta que la BD se actualice
+                // Ahora se compara la fecha completa (fecha + hora + minuto)
                 var existeReserva = _context.Reservas
                     .Any(r => r.MesaId == reserva.MesaId &&
-                             r.Fecha.Date == reserva.Fecha.Date &&
+                             r.Fecha == reserva.Fecha &&
                              r.Tipo == reserva.Tipo);
                 // r.Estado != "Cancelada"); // Comentado temporalmente
 
@@ -99,9 +97,9 @@ namespace TPV_Gastronomico.Services
 
         public List<Mesa> GetMesasDisponibles(DateTime fecha, TipoComida tipoComida, int numPersonas)
         {
-            // TEMPORAL: Sin validación de Estado
+            // Ahora consideramos la fecha completa (fecha + hora + minuto) para determinar mesas ocupadas
             var mesasOcupadas = _context.Reservas
-                .Where(r => r.Fecha.Date == fecha.Date &&
+                .Where(r => r.Fecha == fecha &&
                            r.Tipo == tipoComida)
                 // r.Estado != "Cancelada") // Comentado temporalmente
                 .Select(r => r.MesaId)
@@ -120,15 +118,15 @@ namespace TPV_Gastronomico.Services
                 var reservaExistente = _context.Reservas.Find(reservaActualizada.Id);
                 if (reservaExistente != null)
                 {
-                    // Verificar disponibilidad si se cambió mesa, fecha o tipo
+                    // Verificar disponibilidad si se cambió mesa, fecha u tipo
                     if (reservaExistente.MesaId != reservaActualizada.MesaId ||
-                        reservaExistente.Fecha.Date != reservaActualizada.Fecha.Date ||
+                        reservaExistente.Fecha != reservaActualizada.Fecha ||
                         reservaExistente.Tipo != reservaActualizada.Tipo)
                     {
                         var existeOtraReserva = _context.Reservas
                             .Any(r => r.Id != reservaActualizada.Id &&
                                      r.MesaId == reservaActualizada.MesaId &&
-                                     r.Fecha.Date == reservaActualizada.Fecha.Date &&
+                                     r.Fecha == reservaActualizada.Fecha &&
                                      r.Tipo == reservaActualizada.Tipo);
                         // r.Estado != "Cancelada"); // Comentado temporalmente
 

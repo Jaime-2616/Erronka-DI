@@ -87,33 +87,6 @@ namespace TPV_Gastronomico.Views
             }
         }
 
-        private void BtnCrearReserva_Click(object sender, RoutedEventArgs e)
-        {
-            if (!ValidarDatosReserva() || cbMesa.SelectedItem == null)
-            {
-                MessageBox.Show("Complete todos los datos y busque mesas disponibles primero", "Datos incompletos",
-                              MessageBoxButton.OK, MessageBoxImage.Warning);
-                return;
-            }
-
-            var reserva = new Reserva
-            {
-                MesaId = (cbMesa.SelectedItem as Mesa).Id,
-                UsuarioId = _usuarioActual.Id,
-                Fecha = ObtenerFechaCompleta(),
-                Tipo = (TipoComida)cbTipoComida.SelectedValue,
-                NumPersonas = int.Parse(txtNumPersonas.Text)
-            };
-
-            if (_reservaService.CrearReserva(reserva))
-            {
-                MessageBox.Show("✅ Reserva creada exitosamente", "Éxito",
-                              MessageBoxButton.OK, MessageBoxImage.Information);
-                CargarReservas();
-                LimpiarFormulario();
-            }
-        }
-
         private void BtnCancelarReserva_Click(object sender, RoutedEventArgs e)
         {
             var reserva = dgMisReservas.SelectedItem as Reserva;
@@ -155,6 +128,17 @@ namespace TPV_Gastronomico.Views
             CargarReservas();
             MessageBox.Show("Lista de reservas actualizada", "Actualizado",
                           MessageBoxButton.OK, MessageBoxImage.Information);
+        }
+
+        private void BtnCrearReserva_Click(object sender, RoutedEventArgs e)
+        {
+            var dlg = new ReservationDialogWindow(_usuarioActual) { Owner = this };
+            if (dlg.ShowDialog() == true)
+            {
+                MessageBox.Show("✅ Reserva creada exitosamente", "Éxito", MessageBoxButton.OK, MessageBoxImage.Information);
+                CargarReservas();
+                LimpiarFormulario();
+            }
         }
 
         private DateTime ObtenerFechaCompleta()

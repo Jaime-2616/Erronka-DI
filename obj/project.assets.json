@@ -1338,11 +1338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\TPV_Gastronomico.csproj",
+      "projectUniqueName": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico1\\TPV_Gastronomico\\TPV_Gastronomico\\TPV_Gastronomico.csproj",
       "projectName": "TPV_Gastronomico",
-      "projectPath": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\TPV_Gastronomico.csproj",
+      "projectPath": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico1\\TPV_Gastronomico\\TPV_Gastronomico\\TPV_Gastronomico.csproj",
       "packagesPath": "C:\\Users\\ik012982i18\\.nuget\\packages\\",
-      "outputPath": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico\\obj\\",
+      "outputPath": "D:\\Jaime\\Erronka\\TPV_Gastronomico-20251121T122733Z-1-001\\TPV_Gastronomico1\\TPV_Gastronomico\\TPV_Gastronomico\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

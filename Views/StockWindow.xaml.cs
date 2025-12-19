@@ -14,6 +14,7 @@ namespace TPV_Gastronomico.Views
 
         public StockWindow()
         {
+            // Euskera: Stock kudeaketa leihoa; produktu zerrenda kargatu
             InitializeComponent();
             LoadAll();
         }
@@ -36,6 +37,7 @@ namespace TPV_Gastronomico.Views
 
         private void Buscar_Click(object sender, RoutedEventArgs e)
         {
+            // Euskera: Produktuak bilatu izen edo kategoriaren arabera
             var term = SearchBox.Text;
             var list = _stockService.Search(term).ToList();
             ProductosGrid.ItemsSource = list;
@@ -44,6 +46,7 @@ namespace TPV_Gastronomico.Views
 
         private void StockBajo_Click(object sender, RoutedEventArgs e)
         {
+            // Euskera: Stock baxuko produktuak erakutsi
             var list = _stockService.GetLowStock(5).ToList();
             ProductosGrid.ItemsSource = list;
             ClearForm();
@@ -51,6 +54,7 @@ namespace TPV_Gastronomico.Views
 
         private void ProductosGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            // Euskera: Hautatutako produktuaren datuak formularioan erakutsi
             _selectedProducto = ProductosGrid.SelectedItem as Producto;
             if (_selectedProducto != null)
             {
@@ -73,6 +77,7 @@ namespace TPV_Gastronomico.Views
 
         private void Anadir_Click(object sender, RoutedEventArgs e)
         {
+            // Euskera: Produktu berria gehitu datu-basera
             try
             {
                 var nuevo = new Producto
@@ -95,6 +100,7 @@ namespace TPV_Gastronomico.Views
 
         private void Actualizar_Click(object sender, RoutedEventArgs e)
         {
+            // Euskera: Hautatutako produktua eguneratu
             if (_selectedProducto == null)
             {
                 MessageBox.Show("Selecciona un producto para actualizar.", "Atención", MessageBoxButton.OK, MessageBoxImage.Warning);
@@ -120,6 +126,7 @@ namespace TPV_Gastronomico.Views
 
         private void Eliminar_Click(object sender, RoutedEventArgs e)
         {
+            // Euskera: Hautatutako produktuaren ezabapena baieztatu eta egin
             if (_selectedProducto == null)
             {
                 MessageBox.Show("Selecciona un producto para eliminar.", "Atención", MessageBoxButton.OK, MessageBoxImage.Warning);

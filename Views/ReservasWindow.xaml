@@ -54,64 +54,76 @@
                 </Grid>
             </TabItem>
 
-            <!-- Pestaña: Nueva Reserva -->
+            <!-- Pestaña: Nueva Reserva (solo botón visible) -->
             <TabItem Header="Erreserba berria">
                 <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
-
-                    <StackPanel Grid.Column="0" Margin="20" Width="350">
-                        <Label Content="Data:" FontWeight="Bold"/>
-                        <DatePicker x:Name="dpFecha" SelectedDate="{Binding Fecha}" Margin="0,5,0,10"/>
-
-                        <Label Content="Ordua:" FontWeight="Bold"/>
-                        <StackPanel Orientation="Horizontal" Margin="0,5,0,10">
-                            <ComboBox x:Name="cbHora" Width="80" SelectedIndex="0">
-                                <ComboBoxItem Content="13:00"/>
-                                <ComboBoxItem Content="14:00"/>
-                                <ComboBoxItem Content="15:00"/>
-                                <ComboBoxItem Content="20:00"/>
-                                <ComboBoxItem Content="21:00"/>
-                                <ComboBoxItem Content="22:00"/>
-                            </ComboBox>
-                            <ComboBox x:Name="cbMinuto" Width="0" Margin="10,0,0,0" SelectedIndex="0">
-                                <ComboBoxItem Content="00"/>
-                                <ComboBoxItem Content="15"/>
-                                <ComboBoxItem Content="30"/>
-                                <ComboBoxItem Content="45"/>
-                            </ComboBox>
-                        </StackPanel>
-
-                        <Label Content="Pertsona kopurua:" FontWeight="Bold"/>
-                        <TextBox x:Name="txtNumPersonas" Text="2" Margin="0,5,0,10"/>
-
-                        <Label Content="Mahai:" FontWeight="Bold"/>
-                        <ComboBox x:Name="cbMesa" DisplayMemberPath="Numero"
-                                 ToolTipService.ToolTip="{Binding Capacidad, StringFormat=Ahalmena: {0} pertsona}"
-                                 Margin="0,5,0,10"/>
-
-                        <TextBlock x:Name="txtInfoMesa" Margin="0,5,0,10" Foreground="Blue" FontWeight="SemiBold"/>
-
-                        <Button Content="Eskuragarri dauden mahaiak bilatu" Click="BtnBuscarMesas_Click"
-                                Margin="0,10,0,5" Background="LightGreen" FontWeight="Bold" Height="30"/>
+                    <!-- Visible area: only the "Erreserba sortu" button -->
+                    <StackPanel HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20">
                         <Button Content="Erreserba sortu" Click="BtnCrearReserva_Click"
-                                Margin="0,5,0,0" Background="Green" Foreground="White" FontWeight="Bold" Height="35"/>
+                                Margin="0,5,0,0" Background="Green" Foreground="White" FontWeight="Bold" Height="35" Width="160"/>
                     </StackPanel>
-                    <ComboBox x:Name="cbTipoComida" DisplayMemberPath="Value" SelectedValuePath="Key" Margin="0,0,0,0" Width="0"/>
 
-                    <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="1" Margin="10" Background="WhiteSmoke">
-                        <StackPanel Margin="10" Width="300">
-                            <TextBlock Text="Eskuragarri dauden mahaiak - informazioa" FontWeight="Bold" Margin="0,0,0,10"/>
-                            <DataGrid x:Name="dgMesasDisponibles" AutoGenerateColumns="False" Height="300">
-                                <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Mahai" Binding="{Binding Numero}" Width="60"/>
-                                    <DataGridTextColumn Header="Ahalmena" Binding="{Binding Capacidad}" Width="80"/>
-                                </DataGrid.Columns>
-                            </DataGrid>
-                        </StackPanel>
-                    </Border>
+                    <!-- Hidden full form kept for compatibility with code-behind (controls keep their x:Name) -->
+                    <StackPanel x:Name="HiddenReservaForm" Visibility="Collapsed">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0" Margin="20" Width="350">
+                                <Label Content="Data:" FontWeight="Bold"/>
+                                <DatePicker x:Name="dpFecha" SelectedDate="{Binding Fecha}" Margin="0,5,0,10"/>
+
+                                <Label Content="Ordua:" FontWeight="Bold"/>
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,10">
+                                    <ComboBox x:Name="cbHora" Width="80" SelectedIndex="0">
+                                        <ComboBoxItem Content="13:00"/>
+                                        <ComboBoxItem Content="14:00"/>
+                                        <ComboBoxItem Content="15:00"/>
+                                        <ComboBoxItem Content="20:00"/>
+                                        <ComboBoxItem Content="21:00"/>
+                                        <ComboBoxItem Content="22:00"/>
+                                    </ComboBox>
+                                    <ComboBox x:Name="cbMinuto" Width="0" Margin="10,0,0,0" SelectedIndex="0">
+                                        <ComboBoxItem Content="00"/>
+                                        <ComboBoxItem Content="15"/>
+                                        <ComboBoxItem Content="30"/>
+                                        <ComboBoxItem Content="45"/>
+                                    </ComboBox>
+                                </StackPanel>
+
+                                <Label Content="Pertsona kopurua:" FontWeight="Bold"/>
+                                <TextBox x:Name="txtNumPersonas" Text="2" Margin="0,5,0,10"/>
+
+                                <Label Content="Mahai:" FontWeight="Bold"/>
+                                <ComboBox x:Name="cbMesa" DisplayMemberPath="Numero"
+                                         ToolTipService.ToolTip="{Binding Capacidad, StringFormat=Ahalmena: {0} pertsona}"
+                                         Margin="0,5,0,10"/>
+
+                                <TextBlock x:Name="txtInfoMesa" Margin="0,5,0,10" Foreground="Blue" FontWeight="SemiBold"/>
+
+                                <Button Content="Eskuragarri dauden mahaiak bilatu" Click="BtnBuscarMesas_Click"
+                                        Margin="0,10,0,5" Background="LightGreen" FontWeight="Bold" Height="30"/>
+                                <Button Content="Erreserba sortu" Click="BtnCrearReserva_Click"
+                                        Margin="0,5,0,0" Background="Green" Foreground="White" FontWeight="Bold" Height="35"/>
+                            </StackPanel>
+
+                            <ComboBox x:Name="cbTipoComida" DisplayMemberPath="Value" SelectedValuePath="Key" Margin="0,0,0,0" Width="0"/>
+
+                            <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="1" Margin="10" Background="WhiteSmoke">
+                                <StackPanel Margin="10" Width="300">
+                                    <TextBlock Text="Eskuragarri dauden mahaiak - informazioa" FontWeight="Bold" Margin="0,0,0,10"/>
+                                    <DataGrid x:Name="dgMesasDisponibles" AutoGenerateColumns="False" Height="300">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn Header="Mahai" Binding="{Binding Numero}" Width="60"/>
+                                            <DataGridTextColumn Header="Ahalmena" Binding="{Binding Capacidad}" Width="80"/>
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
                 </Grid>
             </TabItem>
         </TabControl>
